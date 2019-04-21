@@ -1,10 +1,10 @@
 #!/bin/bash
 echo
-echo "***************************************"
-echo "*  Brook客户端一键管理脚本   [v1.0]   *"
-echo "*             by Moecola blog         *"
-echo "*         https://moecola.com         *"
-echo "***************************************"
+echo "*****************************************"
+echo "*·  Brook客户端一键管理脚本   [v1.0]    ·*"
+echo "*·             by Moecola blog         ·*"
+echo "*·         https://moecola.com         ·*"
+echo "*****************************************"
 echo
 echo
 echo "[1]启动brook"
