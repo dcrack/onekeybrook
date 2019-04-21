@@ -1,11 +1,9 @@
 #!/bin/bash
 echo
-echo "*Brook客户端一键管理脚本*"
-echo "	by Moecola blog"
-echo "	https://moecola.com"
+echo "*Brook客户端一键管理脚本[v1.0]*"
+echo "*	by Moecola blog*"
+echo "*	https://moecola.com*"
 echo
-echo
-echo "请输入操作"
 echo
 echo "[1]启动brook"
 echo
@@ -18,6 +16,8 @@ echo -e "\033[31m 未启动\033[0m \n"
 else
 echo -e "\033[32m 已启动 \033[0m \n"
 fi
+echo
+echo -n "请输入操作："
 read -e a
 i="sudo"
 x=`dpkg -l| grep $i`
