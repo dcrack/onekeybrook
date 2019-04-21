@@ -20,8 +20,8 @@ echo -e "\033[32m 已启动 \033[0m \n"
 fi
 read -e a
 i="sudo"
-x=`rpm -qa | grep $i`
-if [ `rpm -qa | grep $i |wc -l` -ne 0 ];then
+x=`dpkg -l| grep $i`
+if [ `dpkg -l| grep $i |wc -l` -ne 0 ];then
 echo
 else
 apt install sudo -y
