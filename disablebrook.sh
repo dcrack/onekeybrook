@@ -1,6 +1,6 @@
 #!/bin/bash
-ps -fe|grep "brook" |grep -v grep
-if [ $? -ne 0 ]
+ProcNumber=`ps -ef |grep -w brook|grep -v grep|wc -l`
+if [ $ProcNumber -le 0 ]
 then
 echo -e "brook未启动\n"
 else
