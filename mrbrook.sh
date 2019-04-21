@@ -1,9 +1,10 @@
 #!/bin/bash
 echo
 echo "*****************************************"
-echo "*·  Brook客户端一键管理脚本  [1.0]       ·*"
-echo "*·             by Moecola blog         ·*"
-echo "*·         https://moecola.com         ·*"
+echo "*·  Brook客户端一键管理脚本  [1.0]       "
+echo "*·  系统要求：Debian/Ubuntu             "
+echo "*·             by Moecola blog         "
+echo "*·         https://moecola.com         "
 echo "*****************************************"
 echo
 echo
