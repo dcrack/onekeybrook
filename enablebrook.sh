@@ -1,5 +1,4 @@
 #!/bin/bash
-echo -e "Linux启动brook客户端一键脚本\n"
 echo -e "检查brook是否存在\n"
 if [ ! -f "brook" ]; then
 brook_ver=$(wget -qO- "https://github.com/txthinking/brook/tags"| grep "/txthinking/brook/releases/tag/"| head -n 1| awk -F "/tag/" '{print $2}'| sed 's/\">//') && echo ${brook_ver}
