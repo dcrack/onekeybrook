@@ -4,7 +4,7 @@ if [ ! -f "brook" ]; then
 brook_ver=$(wget -qO- "https://github.com/txthinking/brook/tags"| grep "/txthinking/brook/releases/tag/"| head -n 1| awk -F "/tag/" '{print $2}'| sed 's/\">//') && echo ${brook_ver}
 wget -N --no-check-certificate "https://github.com/txthinking/brook/releases/download/${brook_ver}/brook"
 fi
-
+chmod +x brook
 echo -e "请输入服务器地址[IP:port]\n"
 read -e ip
 echo -e "请输入密码\n"
